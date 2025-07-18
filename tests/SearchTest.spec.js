@@ -29,19 +29,19 @@ test('Verify user should be able to search member', async()=>{
     await search.getSearchField().fill(data.searchMember)
     await search.getSeeAllResultsLink().click()
     await search.getMembersTab().click()
-    await expect (page).toHaveURL('https://noumena-web-staging.web.app/search?text=Monster%20King')
+    await expect (page).toHaveURL('https://practiceautomation.web.app/login-web-staging.web.app/search?text=Monster%20King')
 })
 test('Verify user should be able to search Noums', async()=>{
     await search.getSearchField().fill(data.searchNoums)
     await search.getSeeAllResultsLink().click()
     await search.getNoumsTab().click()
-    await expect (page).toHaveURL('https://noumena-web-staging.web.app/search?text=BNNN')
+    await expect (page).toHaveURL('https://practiceautomation.web.app/login-web-staging.web.app/search?text=BNNN')
 })
 test.only('Verify user should be able to search post', async()=>{
     await search.getSearchField().fill(data.searchPost)
     await search.getSeeAllResultsLink().click()
     await search.getPostTab().click()
-    await expect (page).toHaveURL('https://noumena-web-staging.web.app/search?text=iftikar')
+    await expect (page).toHaveURL('https://practiceautomation.web.app/login-web-staging.web.app/search?text=iftikar')
 })
 
 

@@ -23,7 +23,7 @@ test.beforeEach(async ({ browser }) => {
 });
 
 test('Verify the home page', async () => {
-    await expect(page).toHaveURL("https://noumena-web-staging.web.app/")
+    await expect(page).toHaveURL("https://practiceautomation.web.app/login-web-staging.web.app/")
     await page.waitForTimeout(3000);
     await expect(page.locator(message.homeHelloText)).toBeVisible();
     await expect(page.getByText(message.YourWorkYourWayHeaderText)).toBeVisible();

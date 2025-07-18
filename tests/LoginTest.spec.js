@@ -22,7 +22,7 @@ test('Verify user should be able to login with valid credentials', async () => {
     await login.autoLogin(data.email, data.otp1, data.otp2, data.otp3, data.otp4);
 
     await page.waitForTimeout(5000)
-    await expect(page).toHaveURL('https://noumena-web-staging.web.app/')
+    await expect(page).toHaveURL('https://practiceautomation.web.app/login-web-staging.web.app/')
 
 });
 test('Verify user should be able to see error message when enters invalid email', async () => {
