@@ -12,7 +12,7 @@ export default class SignUpPage {
     getSignupBtn = () => this.page.locator('button[data-testid="submitBtn"]')
     getOtpSubmitBtn = () => this.page.locator('button[data-testid="submitOtp"]')
     getSubmitQuestionBtn = () => this.page.locator("(//span[@class='sc-pyfCe btlWur'])[1]")
-    getContinueToNoumenaBtn = () => this.page.locator('//span[contains(text(), "Continue to Noumena")]')
+    getContinueTopracticeBtn = () => this.page.locator('//span[contains(text(), "Continue to practice")]')
 
     //Question fields
     get1stQuestionField = () => this.page.locator("(//input[@placeholder='Select Answer'])[1]")
@@ -57,7 +57,7 @@ export default class SignUpPage {
 
         await this.getSubmitQuestionBtn().click()
 
-        // await this.getContinueToNoumenaBtn().click()
+        // await this.getContinueTopracticeBtn().click()
 
     }
 

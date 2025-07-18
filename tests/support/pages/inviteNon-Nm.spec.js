@@ -8,7 +8,7 @@ export default class InviteNonNm{
 
 
     getInviteVisibilityBtn=()=>this.page.locator('//span[text()="Invites & Visibility"]');
-    getNonNmTab=()=>this.page.locator('//div[text()="Non-Noumena Members"]');
+    getNonNmTab=()=>this.page.locator('//div[text()="Non-practice Members"]');
     getEmailField=()=>this.page.locator('input[name="email"]');
     getFirstNameField=()=>this.page.locator('input[name="firstName"]');
     getLastNameField=()=>this.page.locator('input[name="lastName"]');

@@ -1,12 +1,12 @@
 {
-    "email" : "tarika+16@noumena.global",
+    "email" : "tarika+16@practice.global",
     "otp1" : "1",
     "otp2" : "2",
     "otp3" : "3",
     "otp4" : "4",
 
 
-    "invalidEmail": "tarika+16@noumena.g",
+    "invalidEmail": "tarika+16@practice.g",
     "shortEmail" : "abc",
 
     "invOtp1" : "4",
@@ -22,7 +22,7 @@
     "invalidCode": "####",
 
 
-    "autoActiveEmail": "testera+196@noumena.global",
+    "autoActiveEmail": "testera+196@practice.global",
     "firstName": "Test",
     "lastName": "User",
 
@@ -32,7 +32,7 @@
 
     "textPost" : "Hey Everyone",
     "addComment" : "Added a Comment",
-    "searchUser": "tarika+18@noumena.global",
+    "searchUser": "tarika+18@practice.global",
     "message" : "Hey how you doing",
 
 

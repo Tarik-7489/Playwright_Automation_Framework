@@ -38,8 +38,8 @@ test('Verify auto active sign up flow', async () => {
     await signup.getOtpSubmitBtn().click()
 
     await signup.autoActiveSignUpFlow()
-    await page.waitForSelector("//span[contains(text(), 'Continue to Noumena')]")
-    await signup.getContinueToNoumenaBtn().click()
+    await page.waitForSelector("//span[contains(text(), 'Continue to practice')]")
+    await signup.getContinueTopracticeBtn().click()
     await expect(page).toHaveURL(locator.homeUrl)
 
 })

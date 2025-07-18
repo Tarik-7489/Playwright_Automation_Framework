@@ -32,11 +32,11 @@ test.only('Create a post with only text', async () => {
     await expect(page.getByText(message.createPostToastMessage)).toBeVisible()
 })
 
-test('Verify the All post tab and Noumena Announcement tab', async () => {
+test('Verify the All post tab and practice Announcement tab', async () => {
     await post.getCommunityTab().click()
     await expect(await post.getAllPostTab()).toBeVisible()
-    await post.getNoumenaAnnouncementTab().click()
-    await expect(await post.getNoumenaAnnouncementTab()).toBeVisible()
+    await post.getpracticeAnnouncementTab().click()
+    await expect(await post.getpracticeAnnouncementTab()).toBeVisible()
 })
 
 test('Verify user should be able to report the post', async () => {

@@ -9,7 +9,7 @@ export default class CommunityPost {
     getUploadImage = () => this.page.locator('input[data-testid="file-upload-input"]')
     getCreatePostBtn = () => this.page.locator('(//span[contains(text(),"Post")])[2]')
     getAllPostTab=()=>this.page.locator('//div[contains(text(),"All posts")]')
-    getNoumenaAnnouncementTab=()=>this.page.locator('//div[contains(text(),"Noumena Announcements")]')
+    getpracticeAnnouncementTab=()=>this.page.locator('//div[contains(text(),"practice Announcements")]')
     get1stPostThreeDots=()=>this.page.locator('(//div[@data-test="DropdownPicker"])[1]')
     getReportOption=()=>this.page.locator('//div[contains(text(),"Report")]')
     get1stRadioBtn=()=>this.page.locator('(//span[@data-testid="radio_box"])[1]')
